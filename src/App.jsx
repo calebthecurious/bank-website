@@ -6,12 +6,12 @@ import {
   Stats,
   Business,
   Billing,
-  CarDeal,
+  CardDeal,
   Testimonials,
   Clients,
   CTA,
   Footer,
-} from "./constants/components";
+} from "./components";
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
@@ -32,7 +32,7 @@ const App = () => (
         <Stats />
         <Business />
         <Billing />
-        <CarDeal />
+        <CardDeal />
         <Testimonials />
         <Clients />
         <CTA />
